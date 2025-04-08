@@ -23,6 +23,8 @@ h4{
 .left{
     display: inline-flex;
     align-items: center;
+    width: 100%;
+    justify-content: center;
 }
 
 .right {
@@ -133,7 +135,6 @@ footer{
     background-color: #fff;
     color: #444444;
     padding: 0 120px;
-    
 }
 
 .footer__img{
