@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="/CSS/home_rol_cliente.css">
     <link rel="shortcut icon" href="/Imagenes/Ico.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
@@ -16,7 +15,12 @@
             <h4>Biblioteca_Desarrollo_Web</h4>
         </div>
         <div class="right">
-            <i class="material-icons perfil">account_circle</i>
+            <i class="material-icons perfil" id="perfil-icon">account_circle</i>
+            <div class="menu" id="menu">
+                <div class="menu-item">Nombre</div>
+                <div class="menu-item">Rol</div>
+                <div class="menu-item cerrar-sesion">Cerrar Sesión</div>
+            </div>
         </div>
     </nav>
     <header>
@@ -91,5 +95,6 @@
             <img src="/Imagenes/redes_sociales.png" alt="" class="footer__img">
         </div>
     </footer>
+    <script src="/JavaScript/menu.js"></script>
 </body>
 </html>
